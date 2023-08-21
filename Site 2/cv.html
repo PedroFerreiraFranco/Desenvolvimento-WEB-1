@@ -7,16 +7,45 @@
 </head>
 <body>
     <header>
-        <img src="./imagem/imagem.JPG" alt="Foto Pedro"/>
+        <img src="./imagem/imagem.JPG" alt="Foto Pedro" style="max-height: 200px;max-width: 200px;"/>
         <!-- Colocar uma imagem -->
         <h1>Curriculo Pedro Ferreira Franco</h1>
+
+        <!-- TODO Contato -->
+        <address>
+            <h4>Email</h4>
+            <a href="pedroferreirafranco22@gmail.com">pedroferreirafranco22@gmail.com</a>
+
+            <h4>Fone</h4>
+            <a href="tel:+5535998085210">+55 (35)99808-5210</a>
+
+            <h4>Endereço</h4>
+            <a href="">Sítio Shekinah</a>
+        </address>
+
+         <!-- Resumo de qualificações -->
+            <p>
+                Graduando em Bacharelado em<b>Sistemas de Informação</b>, Cerficação de curso <b>Técnico em 
+                Informática</b> pelo <acronym title ="Instituto Federal de Ciência, Educação e Tencnologia do Sul de Minas Gerais
+                ">IFSULDEMINAS</acronym>. Experiência nas plataformas Java, MySQL, HTML, JavaScript em projetos desenvolvidos na faculdade.
+            </p>
+
         <nav>
             <!-- Menu de Navegação-->
+            <ul>
+            <li><a href="#id_objetivos">Objetivos</a></li>
+            <li><a href="#id_qualifications">Qualificações</a></li>
+            <li><a href="#id_education">Formação</a></li>
+            <li><a href="#id_experience">Experiência Profissional</a></li>
+            <li><a href="#id_idiomas">Idiomas</a></li>
+            <li><a href="#id_hobbies">Hobbies</a></li>
+            <li><a href="#id_portfolio">Portifólio</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="id_objetives">
             <h1>Objetivos</h1>
             <p> Meu objetivo é concluir com sucesso a graduação em Sistemas de Informação, 
                 atualmente no 4º período. Almejo me tornar um desenvolvedor especializado em banco de dados, 
@@ -24,51 +53,79 @@
                 Estou dedicado a aprimorar minhas habilidades e conhecimentos para alcançar excelência em ambas as vertentes.</p>
         </section>
 
-        <section>
+        <section id="id_qualifications">
+            <h1>Qualificações</h1>
+            <li>Experiência de 4 anos com SQL</li>
+            <li>Experiênciade 2 anos com JAVA</li>
+        </section>
+
+        <section id="id_education">
             <h1>Formação</h1>
             <h4>Instituição - Período</h4>
             <p>Descrição da formação</p>
 
             <h3>Graduação</h3>
-            <h4>Bacharelado - IFSULDEMINAS - 2022 a 2025</h4>
+            <h4>Bacharelado - <acronym title ="Instituto Federal de Ciência, Educação e Tencnologia do Sul de Minas Gerais
+                ">IFSULDEMINAS</acronym> - 2022 a 2025</h4>
             <p>Bacharelado em Sistemas de Informação</p>
 
             <h3>Cursos Técnicos</h3>
             <h4>Técnico em Infomática - 2019 a 2021</h4>
-            <p>Curso técnico integrado ao ensino médio, ofertado pelo IFSULDEMINAS</p>
+            <p>Curso técnico integrado ao ensino médio, ofertado pelo <acronym title ="Instituto Federal de Ciência, Educação e Tencnologia do Sul de Minas Gerais
+                ">IFSULDEMINAS</acronym></p>
 
             <h3>Treinamentos</h3>
             <h4>Seminário - NIC.br - 2023</h4>
-            <p>IA Generativa</p>
+            <p><acronym title ="Inteligência Artificial">IA</acronym> Generativa</p>
 
         </section>
         
-        <section>
+        <section id="id_experience">
             <h1>Experiência Profissional</h1>
 
             <h3>Unicol - 2023 a atual</h3>
             <h4>Professor</h4>
             <p>Atuando na área robótica educacional para alunos da educação infantil, 3 a 10 anos.</p>
 
-            <h3>IFSULDEMINAS - 2022 a atual</h3>
+            <h3><acronym title ="Instituto Federal de Ciência, Educação e Tencnologia do Sul de Minas Gerais
+                ">IFSULDEMINAS</acronym> - 2022 a atual</h3>
             <h4>Bolsista</h4>
             <p>Atuação como Instrutor & Pesquisador no projeto de robótica(GAP AUTOBOTS) ofertado pelo campus.</p>
 
         </section>
 
 
-        <section>
+        <section id="id_idiomas">
             <h1>Idiomas</h1>
             <h4>Português-BR</h4>
             <h4>Inglês-EN</h4>
+            <p>Basic certificate by the Wizard English school</p>
         </section>
 
-        <section>
+        <section id="id_hobbies">
             <h1>Hobbies</h1>
+            <li>Academia</li>
+            <li>Volêi de areia</li>
+            <li>Volêi de quadra</li>
+            <li>Futebol</li>
+            <li>Jogos Digitais</li>
+            <li>Música</li>
         </section>
 
-        <section>
+        <section id="id_portfolio">
             <h1>Portifólio</h1>
+            <div>
+                <h3>Protótipo Estufa Automatizada</h3>
+                <a href="https://github.com/PedroFerreiraFranco/SensorUmidade" target="_blank">
+                    Estufa Automatizada com arduino</a>
+            </div>
+
+            <div>
+                <h3>Sistema Academia</h3>
+                <a href="https://github.com/PedroFerreiraFranco/SistemaAcademia" target="_blank">
+                    Sistema Academia</a>
+            </div>
+
         </section>
 
         <aside>
@@ -77,8 +134,17 @@
     </main>
 
     <footer>
-        <p>Copy</p>
-        <!--Menu navegação-->
+        <p>Todos os direitos reservados @pedrofranco.</p>
+    
+    <ul>
+        <li><a href="#id_objetivos">Objetivos</a></li>
+        <li><a href="#id_qualifications">Qualificações</a></li>
+        <li><a href="#id_education">Formação</a></li>
+        <li><a href="#id_experience">Experiência Profissional</a></li>
+        <li><a href="#id_idiomas">Idiomas</a></li>
+        <li><a href="#id_hobbies">Hobbies</a></li>
+        <li><a href="#id_portfolio">Portifólio</a></li>
+    </ul>
     </footer>
 </body>
 </html>
