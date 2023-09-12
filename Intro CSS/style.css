@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,ul,p{
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    margin: 5px;
+}
+
+#first{
+    text-indent: 25px;
+}
+
+#first::first-letter{
+    font-size: 2em;
+    color: blueviolet;
+}
+
+.highlight{
+    background-color: bisque;
+}
