@@ -1,0 +1,9 @@
+.row{
+    background: gray;
+    padding: 5px;
+}
+
+[class^="col"]{
+    background: purple;
+    margin: px;
+}
